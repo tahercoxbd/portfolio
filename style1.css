@@ -1,0 +1,39 @@
+#nav {
+	height: 100px;
+	background: black;
+}
+#header {
+	height: 400px;
+	background: red;
+}
+#main {
+}
+	#sidebar {
+		height: 1000px;
+		background: green;
+	}
+	#content {
+		height: 1000px;
+		background: blue;
+	}
+
+#section {
+	
+}
+	#sec_one {
+		height: 500px;
+		background: pink;
+	}
+	#sec_two {
+		height: 500px;
+		background: yellow;
+	}
+	#sec_three {
+		height: 500px;
+		background: brown;
+	}
+	
+#footer {
+	height: 500px;
+	background: gray;
+}
