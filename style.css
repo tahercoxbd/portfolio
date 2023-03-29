@@ -1,0 +1,98 @@
+/* latin */
+@font-face {
+  font-family: 'Edu NSW ACT Foundation';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/edunswactfoundation/v2/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tosGMci4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Delicious Handrawn';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/delicioushandrawn/v3/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ1F1ZBCR6s.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Delicious Handrawn';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/delicioushandrawn/v3/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ1F25BC.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'myfont';
+  src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+#nav {
+	width: 100%;
+	height: 100px;
+	background: white;
+}
+	#nav .fa, 
+	#nav .make_big {
+		font-size: 50px;
+	}
+	.dane-shor {
+		float: right;
+	}
+#header {
+	width: 100%;
+	height: 400px;
+	background: white;
+	overflow: hidden;
+}
+	#header p {
+		/* font-family: "Edu NSW ACT Foundation"; */
+		/* font-family: "Delicious Handrawn"; */
+		font-family: "myfont";
+		font-size: 30px;
+	}
+#main {
+	width: 100%;
+}
+	#sidebar {
+		width: 30%;
+		height: 1000px;
+		background: white;
+		float: left;
+	}
+	#content {
+		width: 70%;
+		height: 1000px;
+		background: white;
+		display: inline-block;
+	}
+
+#section {
+	width: 100%;
+	
+}
+	#sec_one {
+		width: 33.3%;
+		height: 500px;
+		background: white;
+		float: left;
+	}
+	#sec_two {
+		width: 33.3%;
+		height: 500px;
+		background: yellow;
+		
+	}
+	#sec_three {
+		width: 33.3%;
+		height: 500px;
+		background: white;
+		
+	}
+	
+#footer {
+	width: 100%;
+	height: 500px;
+	background: gray;
+	
+}
