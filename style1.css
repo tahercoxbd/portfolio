@@ -1,39 +1,96 @@
 #nav {
-	height: 100px;
-	background: black;
+	height:80px;
+	width:100%;
+	background-color:red;
+	margin:0 auto;
+}
+#nav .make-b {
+	font-size: 60px;
+      }
+			   
+ .dane-shor {
+	 float:right;
+ }
+#menu {
+	width:70%;
+	color:white;	
+	float:right;
+   }
+  
+#img {
+	height:80px;
+	width:200px;
+	radius:10%;
+}
+#page {
+	height:80px;
+	width:60%px;
+	float:left;
 }
 #header {
-	height: 400px;
-	background: red;
+	height: 300px;
+	width:100%;
+	background-color:pink;
+}
+
+#header p {
+	font-family: 'myf4ont','my4font';
+	font-size: 30px;
+}
+
+.my-nav-item:hover {
+background: brown;
+
 }
 #main {
+	width: 100%;
+	background-color:green;	
 }
+    #content {
+		height: 500px;
+		width:30%;
+		background-color:green;
+		float:left;
+	}
 	#sidebar {
-		height: 1000px;
-		background: green;
+		height: 500px;
+		width: 70%;
+		background-color:solid-white;
+		float:left;
+		margin:0 auto;
 	}
-	#content {
-		height: 1000px;
-		background: blue;
-	}
-
-#section {
 	
+#section {
+	width:100%;
+	background-color:white;	
 }
-	#sec_one {
-		height: 500px;
-		background: pink;
+		
+	#pink {
+		height:400px;
+		width:30%;
+		background-color:pink;
+		float:left;
 	}
-	#sec_two {
-		height: 500px;
-		background: yellow;
+	#yellow {
+		height:400px;
+		width:30%;
+		background-color:yellow;
+		float:left;
 	}
-	#sec_three {
-		height: 500px;
-		background: brown;
+	#brown {
+		height:400px;
+		width:40%;
+		background-color:brown;
+		float:left;
 	}
 	
 #footer {
-	height: 500px;
-	background: gray;
+	height:400px;
+	width:100%;
+	background-color:red;
+	float:left;
+}
+#footer p {
+	font-family: 'myfont','myfont';
+	font-size: 30px;
 }
